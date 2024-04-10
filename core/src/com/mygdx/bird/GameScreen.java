@@ -64,7 +64,7 @@ public class GameScreen implements Screen {
         stage.addActor(pipe1);
 
         Pipe pipe2 = new Pipe();
-        pipe2.setX(800);
+        pipe2.setX(1000);
         pipe2.setY(holey + 200);
         pipe2.setUpsideDown(false);
         pipe2.setManager(game.manager);
